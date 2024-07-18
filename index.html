@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+    <div class="box">
+    <h1>Welcome Back!</h1><br>
+    <b><p>Not a Member? Please Signup</b><br>
+    
+    to Stay Connected With us.<br></p> 
+    </div>
+
+    <div class="form-box">
+
+    <div class="button-box">
+    <div id="btn"></div>    
+    <button type="button" class="toggle-btn" onclick="login()">Login</button>
+    <button type="button" class="toggle-btn" onclick="signup()">Signup</button>   
+    </div> 
+
+    <form>
+        <div class="input-group" id="login">
+        <div class="input-field">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Password" required>
+        </div>
+        <h5>Forgot Password? <a href="#">Click here!</a></h5>
+        <button type="submit" class="submit-btn">Login</button> 
+        </div>
+        </form>
+    
+    <form>
+        <div class="input-group" id="signup">
+        <div class="input-field">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Username" required>
+        </div>
+        <div class="input-field"> 
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Email Address" required>
+        </div>
+        <div class="input-field">
+        <i class="fa-solid fa-key"></i>
+        <input type="password" placeholder="Password" required>
+        </div>
+        <input type="checkbox" class="chk-box"><span>Remember me!</span><br>
+        <button type="submit" class="submit-btn">Signup</button> 
+        </div>
+    </form> 
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

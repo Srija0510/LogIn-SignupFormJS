@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-image: url(images.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.box{
+    margin-top: 11%;
+    margin-left: 20%;
+    width:250px;
+    height: 245px;
+    padding: 50px;
+    background: linear-gradient(to left, #ebbbdfe1, #e77ad1a9, #ce3bb6b2, #940c7d8e);
+    box-shadow: 0px 6px 18px #0a0807;
+}
+h1{
+    font-size:37px;
+    color: rgb(224, 224, 195);
+    text-shadow: 3px 4px #0c0c0c;
+    margin-top: 25%;
+    
+}
+p{
+    font-size: 15px;
+}
+.form-box{
+    width:380px;
+    height: 400px;
+    margin-left: 47%;
+    margin-top:-30%;
+    padding: 11px;
+    background-color: rgba(230, 61, 216, 0.192);
+    box-shadow: 5px 15px 20px #180f0f;
+    position: absolute;
+    overflow: hidden;
+    
+}
+.button-box{
+    width: 220px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 30px;
+    box-shadow: 0px 5px 8px #920663d8;
+}
+.toggle-btn{
+    padding: 10px 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    color: beige;  
+}
+#btn{
+    top: 0;
+    left: 0;
+    width: 110px;
+    height: 100%;
+    position: absolute;
+    border-radius: 30px;
+    background: linear-gradient(to right, #610359, #c533a1, #e676d7, #eee7ea);
+    transition: .5s;
+}
+.input-group{
+    top: 110px;
+    width: 350px;
+    position: absolute;
+    transition: .5s;
+}
+.input-field{
+    background: rgb(241, 239, 239);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin: 16px;
+}
+input{
+    width: 100%;
+    background: transparent;
+    padding: 10px;
+    border: 0;
+    outline: none;
+}
+.input-field i{
+    margin-left: 10px;
+    color: rgb(58, 57, 57);
+}
+h5{
+    font-size:14px; 
+    color: beige;  
+    padding: 10px;
+    margin-left: 48px;
+}
+h5 a{
+    font-size:18px; 
+    color: rgb(131, 105, 202);
+}
+.submit-btn{
+    width: 60%;
+    padding: 12px 0;
+    cursor: pointer;
+    display: block;
+    margin-top: 30px;
+    background: linear-gradient(to top, #7c3070, #d433ac, #f16eeb, #e2d4db);
+    box-shadow: 0px 5px 12px #1b0214da;
+    border-radius: 30px;
+    outline: none;
+    border: 0;
+    margin-left: 18%;
+}
+.chk-box{
+    margin-left: -40%;
+}
+span{
+    color: rgb(168, 144, 233);
+    font-size: 18px;
+    bottom:1px;
+    margin-left: -45%;
+    position: relative;
+}
+#login{
+    left:35px;
+}
+#signup{
+    left:400px;
+}
